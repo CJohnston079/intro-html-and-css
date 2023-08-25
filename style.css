@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 body {
@@ -12,30 +13,40 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--dark);
+    color: white;
 }
 
-nav  > ul {
-    display: flex;
-    gap: 1rem;
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: -0.2rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 
 p {
     font-family: serif;
 }
 
-h1 {
-    font-weight: 300;
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
 }
 
 img {
     max-width: 100%;
-}
-
-h1,
-h2 {
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
 }
 
 .profile {
