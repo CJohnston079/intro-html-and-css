@@ -20,6 +20,10 @@ header {
     color: white;
 }
 
+main {
+    padding: 2rem max(4rem, 10vw);
+}
+
 h1 {
     font-size: 2rem;
     text-transform: uppercase;
