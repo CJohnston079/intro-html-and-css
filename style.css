@@ -6,7 +6,6 @@
 }
 
 body {
-    background-color: hsl(0, 0%, 90%);
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -16,7 +15,7 @@ header {
     justify-content: space-between;
     gap: 1rem;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem max(4rem, 10vw);
     background-color: black;
     color: white;
 }
@@ -25,6 +24,7 @@ h1 {
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: -0.15rem;
+    margin-right: 25vw;
 }
 
 h2 {
@@ -105,8 +105,19 @@ nav a:active {
     letter-spacing: 1rem;
     color: white;
     text-shadow: 1px 1px 2px black;
+    animation: fade-up 2000ms;
 }
 
 .emphasis-heading {
     font-weight: 600;
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        top: 55%;
+    }
+    100% {
+        opacity: 1;
+    }
 }
