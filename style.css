@@ -50,7 +50,7 @@ nav li {
 }
 
 nav li:hover {
-    transform: translateY(-0.2rem);
+    transform: translateY(-0.5rem);
     transition: transform 300ms;
 }
 
@@ -66,7 +66,7 @@ nav a {
 
 nav a:hover {
     border-bottom: solid 0.1rem hsl(0, 0%, 100%, 1.0);
-    padding-bottom: 0.7rem;
+    padding-bottom: 1rem;
     transition: border 300ms, padding 300ms;
 }
 
