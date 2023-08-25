@@ -79,6 +79,9 @@ nav a:active {
 }
 
 .banner {
+    min-height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), hsl(0, 0%, 0%, 0.4)), url(https://cdn.pixabay.com/photo/2023/08/02/14/21/cloud-8165401_1280.jpg);
+    background-position: center;
     position: relative;
 }
 
@@ -94,6 +97,7 @@ nav a:active {
     font-size: 4rem;
     font-weight: 300;
     letter-spacing: 1rem;
+    color: white;
 }
 
 .profile {
