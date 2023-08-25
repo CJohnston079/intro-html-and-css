@@ -1,5 +1,20 @@
 body {
     background-color: hsl(0, 0%, 90%);
+    font-family: sans-serif;
+}
+
+p {
+    font-family: serif;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 
 .profile {
