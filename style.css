@@ -78,8 +78,22 @@ nav a:active {
     border-bottom: solid 0.1rem hsl(0, 0%, 100%, 1.0);
 }
 
-img {
-    width: 100%;
+.banner {
+    position: relative;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+.banner h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: 1rem;
 }
 
 .profile {
