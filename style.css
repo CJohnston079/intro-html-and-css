@@ -37,7 +37,7 @@ h2 {
     letter-spacing: 0.1rem;
 }
 
-p {
+p, ol {
     font-family: 'EB Garamond', serif;
 }
 
