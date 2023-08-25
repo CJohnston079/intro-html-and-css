@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    background-color: var(--dark);
+    background-color: black;
     color: white;
 }
 
@@ -40,13 +40,46 @@ nav ul {
 }
 
 nav a {
-    text-transform: uppercase;
-    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
     color: white;
 }
 
+nav li {
+    transition: transform 800ms;
+    cursor: pointer;
+}
+
+nav li:hover {
+    transform: translateY(-0.2rem);
+    transition: transform 300ms;
+}
+
+nav li:active {
+    transform: translateY(0rem);
+}
+
+nav a {
+    border-bottom: solid 0.1rem hsl(0, 0%, 100%, 0.0);
+    padding: 0.5rem 0rem;
+    transition: border 800ms, padding 800ms;
+}
+
+nav a:hover {
+    border-bottom: solid 0.1rem hsl(0, 0%, 100%, 1.0);
+    padding-bottom: 0.7rem;
+    transition: border 300ms, padding 300ms;
+}
+
+nav a:active {
+    padding-bottom: 0.5rem;
+}
+
+#active-link {
+    border-bottom: solid 0.1rem hsl(0, 0%, 100%, 1.0);
+}
+
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .profile {
