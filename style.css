@@ -1,3 +1,9 @@
 body {
     background-color: hsl(0, 0%, 90%);
 }
+
+.profile {
+    max-height: 200px;
+    border: solid 0.5rem darkblue;
+    border-radius: 100%;
+}
