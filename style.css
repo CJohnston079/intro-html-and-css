@@ -22,12 +22,13 @@ header {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
-    letter-spacing: -0.2rem;
+    letter-spacing: -0.15rem;
 }
 
 h2 {
+    font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
 }
@@ -100,8 +101,12 @@ nav a:active {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 4rem;
-    font-weight: 300;
+    text-align: center;
     letter-spacing: 1rem;
     color: white;
     text-shadow: 1px 1px 2px black;
+}
+
+.emphasis-heading {
+    font-weight: 600;
 }
