@@ -22,7 +22,7 @@ header {
 
 main {
     padding: 2rem max(4rem, 10vw);
-    margin: 2rem 0 4rem 0;
+    margin-bottom: 4rem;
 }
 
 h1 {
@@ -36,6 +36,13 @@ h2 {
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+}
+
+h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: solid gray 1px;
 }
 
 p, ol {
