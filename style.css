@@ -138,14 +138,14 @@ nav a:active {
     height: 20rem;
     object-fit: cover;
     border-radius: 2%;
-    transition: transform 300ms ease-in, box-shadow 600ms;
+    transition: transform 300ms, box-shadow 100ms;
     cursor: pointer;
 }
 
 .gallery img:hover {
     transform: translate(-50%, -50%);
-    transform: scale(2);
-    box-shadow: 0 0 0.2rem hsl(0, 0%, 0%, 0.5);
+    transform: scale(1.02);
+    box-shadow: 0 0 0.3rem hsl(0, 0%, 0%, 0.5);
 }
 
 footer {
