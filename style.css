@@ -22,6 +22,7 @@ header {
 
 main {
     padding: 2rem max(4rem, 10vw);
+    margin: 2rem 0 4rem 0;
 }
 
 h1 {
@@ -114,6 +115,24 @@ nav a:active {
 
 .emphasis-heading {
     font-weight: 600;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem max(4rem, 10vw);
+    background-color: black;
+}
+
+footer p,
+footer a {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+footer a {
+    font-weight: 700;
 }
 
 @keyframes fade-up {
