@@ -124,6 +124,30 @@ nav a:active {
     font-weight: 600;
 }
 
+.gallery {
+    /* grid-template-columns: repeat(mod(100vw, 2), 1fr); */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    margin: 1rem;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 2%;
+    transition: transform 300ms ease-in, box-shadow 600ms;
+    cursor: pointer;
+}
+
+.gallery img:hover {
+    transform: translate(-50%, -50%);
+    transform: scale(2);
+    box-shadow: 0 0 0.2rem hsl(0, 0%, 0%, 0.5);
+}
+
 footer {
     position: fixed;
     bottom: 0;
